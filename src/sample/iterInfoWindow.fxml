@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.iterInfoController">
+   <children>
+      <Button fx:id="iterBackBtn" layoutX="14.0" layoutY="347.0" mnemonicParsing="false" text="Вернуться к решению" />
+      <Button fx:id="homeBtn" layoutX="406.0" layoutY="347.0" mnemonicParsing="false" text="На главную" />
+      <Label layoutX="47.0" layoutY="35.0" prefHeight="40.0" prefWidth="405.0" text="Решение уравнений методом итераций и методом дихотомии">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="30.0" layoutY="78.0" prefHeight="238.0" prefWidth="438.0" text="Метод простых итераций  применяются для приближенного решения &#10;алгебраических и транcцендентных уравнений, систем уравнений и др.&#10;Решение уравнения или системы уравнений итерационным методом&#10;получается как предел последовательности приближений, вычисляемых&#10;в ходе процесса итераций.&#10;При решении задачи методом итераций нужно сначала задать начальное&#10;приближение, из этого начального приближения получаются новые&#10;«улучшенные» приближенные значения. Новые приближенные значения&#10;«улучшаются» и т. д. При определенных условиях построенная таким &#10;образом последовательность приближений сходится к точному решению. &#10;" />
+   </children>
+</AnchorPane>

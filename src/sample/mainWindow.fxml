@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="47.0" layoutY="35.0" prefHeight="40.0" prefWidth="405.0" text="Решение уравнений методом итераций и методом дихотомии">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="98.0" prefHeight="46.0" prefWidth="266.0" text="Выберите один из представленных методов">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="iterMethBtn" layoutX="184.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" text="Метод итераций" />
+      <Button fx:id="dichMethBtn" layoutX="184.0" layoutY="246.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" text="Метод дихотомии" />
+   </children>
+</AnchorPane>
